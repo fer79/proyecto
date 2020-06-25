@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /diplomas/
+Disallow: /archivos/
+Disallow: /errors/

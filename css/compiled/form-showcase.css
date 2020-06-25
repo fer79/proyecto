@@ -1,0 +1,181 @@
+.form-page .form-wrapper {
+	margin-bottom: 40px;
+}
+
+.form-page .form-wrapper .field-box {
+	margin-left: 0;
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+
+.form-page .form-wrapper label {
+	display: inline-block;
+	float: left;
+	font-weight: 600;
+	cursor: auto;
+	font-size: 12px;
+	width: 140px;
+	text-align: left;
+}
+
+.form-page .form-wrapper input:-moz-placeholder {
+	font-style: italic;
+}
+
+.form-page .form-wrapper input:-ms-input-placeholder {
+	font-style: italic;
+}
+
+.form-page .form-wrapper input::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+.form-page .form-wrapper .predefined {
+	position: relative;
+}
+
+.form-page .form-wrapper .predefined input {
+	padding-left: 40px;
+}
+
+.form-page .form-wrapper .predefined .value {
+	position: absolute;
+	top: 6px;
+}
+
+.form-page .form-wrapper label.checkbox {
+	cursor: pointer;
+	color: #555;
+}
+
+.form-page .form-wrapper label.radio {
+	position: relative;
+	left: -20px;
+	width: 100%;
+	cursor: pointer;
+	color: #555;
+}
+
+.form-page .form-wrapper label.checkbox, .form-page .form-wrapper label.radio
+	{
+	font-weight: lighter;
+}
+
+.form-page .form-wrapper label.checkbox input[type="checkbox"],
+	.form-page .form-wrapper label.checkbox input[type="radio"], .form-page .form-wrapper label.radio input[type="checkbox"],
+	.form-page .form-wrapper label.radio input[type="radio"] {
+	font-size: large;
+	margin-left: 0px;
+}
+
+.form-page .form-wrapper .wysi-column {
+	float: left;
+	width: 75%;
+}
+
+.form-page .form-wrapper .column.pull-right label {
+	display: block;
+}
+
+.form-page .form-wrapper .column.pull-right .ui-select {
+	width: 250px;
+}
+
+.form-page .form-wrapper .column.pull-right .input-group {
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+.form-page .form-wrapper .column.pull-right .input-datepicker {
+	width: 250px;
+}
+
+.form-page .form-wrapper .select2-container {
+	margin-left: 0px;
+}
+
+/*Responsive*/
+@media ( max-width : 767px) {
+	.form-page .form-wrapper label.radio {
+		left: 0px;
+	}
+}
+
+.form-group {
+	display: block;
+	overflow: hidden;
+	margin-left: 20px;
+	width: 100%;
+	min-height: 46px;
+}
+
+.form-group.wdatepicker {
+	overflow: visible !important;
+}
+
+#formulario {
+	display: block;
+	overflow: hidden;
+	min-height: 300px;
+	padding: 20px;
+	margin-top: 20px;
+	border: 2px dashed #dee3e8;
+}
+
+.activeDroppable {
+	border: 2px dashed #31708f;
+}
+
+.hoverDroppable {
+	border: 2px dashed #dee3e8;
+}
+
+.draggableField {
+	border: 2px dashed #FFFFFF;
+}
+
+.draggableField:hover {
+	border: 2px dashed #dee3e8;
+}
+
+.tab-pane {
+	display: none;
+}
+
+.tab-content {
+	overflow: hidden;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-radius: 4px 4px 0 0;
+	padding: 5px;
+}
+
+.tab-pane.active {
+	display: block
+}
+
+#theForm .form-group {
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+.modificar-error {
+	border-color: #c73939;
+}
+
+.ui-select {
+	margin-left: 15px !important;
+}
+
+.wizard-actions {
+	float: right;
+	clear: both;
+	margin-top: 30px;
+	margin-right: 130px;
+}
+
+.ver-registro .form-group {
+	min-height: initial !important;
+}
